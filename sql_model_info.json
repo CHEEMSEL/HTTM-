@@ -1,0 +1,13 @@
+{
+  "model_file": "sql_predictor.pkl",
+  "feature_names_file": "sql_feature_names.json",
+  "feature_names": [
+    "query_length",
+    "has_where",
+    "has_group_by",
+    "has_order_by",
+    "has_like"
+  ],
+  "scaler_file": null,
+  "model_type": "XGBoost"
+}

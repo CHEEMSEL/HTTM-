@@ -1,0 +1,301 @@
+query_string,query_length,has_where,has_group_by,has_order_by,has_like,row_count,execution_time_ms,is_slow_query
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,29.573440551757812,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,42.77467727661133,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,25.771141052246094,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,26.340007781982422,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,158.54525566101074,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,27.18973159790039,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,420.4554557800293,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,419.50297355651855,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,427.7491569519043,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,78.69839668273926,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,26.088953018188477,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,28.984785079956055,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,25.67744255065918,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,71.90299034118652,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,40.34066200256348,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,203.75657081604004,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,100.16345977783203,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,31.5248966217041,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,31.146526336669922,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,190.18054008483887,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,459.9158763885498,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,159.59835052490234,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,24.306774139404297,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,37.05620765686035,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,36.940574645996094,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,24.483919143676758,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,150.0532627105713,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,24.15943145751953,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,23.438215255737305,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,62.255144119262695,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.820234298706055,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.931035995483398,0
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,38.46383094787598,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,27.161359786987305,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,39.032697677612305,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,140.83051681518555,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,154.28829193115234,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,15.170812606811523,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.391256332397461,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.557973861694336,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,61.68389320373535,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,62.04724311828613,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,61.81669235229492,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.91148567199707,0
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,409.9264144897461,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,30.564069747924805,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,38.73562812805176,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,61.70511245727539,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,23.257017135620117,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,142.95530319213867,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,24.54829216003418,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,143.49102973937988,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,24.181842803955078,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,59.506893157958984,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,23.389101028442383,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.449254989624023,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.985458374023438,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.6900577545166,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.661685943603516,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,146.99792861938477,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,37.1708869934082,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,420.4888343811035,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,20.16592025756836,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,41.953325271606445,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,43.8079833984375,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,16.566991806030273,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,77.63242721557617,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,503.0324459075928,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,46.511173248291016,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,25.575876235961914,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,14.156579971313477,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,153.37586402893066,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,25.35247802734375,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,23.874998092651367,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.85641098022461,0
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.709306716918945,0
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,61.05399131774902,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,23.64182472229004,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,141.7253017425537,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,403.8963317871094,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,19.000768661499023,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.579431533813477,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.82246398925781,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.95707893371582,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.624088287353516,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.1179256439209,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.446001052856445,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,131.9582462310791,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,137.06183433532715,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,14.357805252075195,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,133.09550285339355,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,23.365497589111328,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.96979522705078,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.104183197021484,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.138845443725586,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,375.1232624053955,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,17.861604690551758,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.59802055358887,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.55558967590332,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.453857421875,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,374.51767921447754,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,16.90840721130371,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.363250732421875,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,377.4847984313965,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,26.35049819946289,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.012306213378906,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.452363967895508,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.961284637451172,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.33941650390625,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.306110382080078,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,128.29065322875977,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.431310653686523,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,127.9296875,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.633790969848633,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,446.95425033569336,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,146.1045742034912,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,37.17327117919922,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,136.19613647460938,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,27.066946029663086,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,25.612831115722656,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,14.284372329711914,0
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,408.89716148376465,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,27.469635009765625,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.81839942932129,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.816816329956055,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.303342819213867,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.860774993896484,0
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.87800407409668,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.927595138549805,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.129297256469727,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.9503288269043,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.38758850097656,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,371.7012405395508,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,24.71637725830078,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.283086776733398,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,128.85069847106934,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,22.334814071655273,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.9963436126709,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,377.0115375518799,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,38.42020034790039,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.553215026855469,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.932435989379883,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,384.1695785522461,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,138.016939163208,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,57.29079246520996,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,131.73794746398926,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,23.64182472229004,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.10394477844238,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,133.47697257995605,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,23.34427833557129,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.05006217956543,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.31509780883789,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.15433120727539,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,373.7914562225342,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,26.536941528320312,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,372.9400634765625,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,39.78419303894043,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.664215087890625,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.492958068847656,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.600961685180664,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.51998329162598,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.58553695678711,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.154817581176758,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.473718643188477,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.688215255737305,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,128.70264053344727,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,373.2738494873047,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,39.905548095703125,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.83651161193848,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.87092399597168,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.597219467163086,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,380.93113899230957,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,26.56245231628418,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.00905418395996,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.036325454711914,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.136926651000977,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,372.80869483947754,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,140.68603515625,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,376.28936767578125,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,17.325401306152344,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.338876724243164,0
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,373.1231689453125,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,387.5753879547119,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,141.6609287261963,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.95614433288574,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.7027587890625,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.724637985229492,0
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.576873779296875,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.56561279296875,0
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,11.737585067749023,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.08199691772461,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,11.710882186889648,0
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.098697662353516,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,32.7146053314209,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,128.80587577819824,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.09488487243652,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,129.87804412841797,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,57.555437088012695,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.440982818603516,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.609004974365234,0
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.94976806640625,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.360095977783203,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,131.2868595123291,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.646738052368164,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.055782318115234,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,369.0605163574219,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,137.80593872070312,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.735992431640625,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.82936668395996,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.081844329833984,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.524513244628906,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.636796951293945,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,131.49237632751465,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.526824951171875,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,374.7832775115967,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,139.14966583251953,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.849973678588867,0
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,373.2891082763672,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,16.390562057495117,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.374162673950195,0
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,129.93741035461426,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.233423233032227,0
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,32.98807144165039,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,372.9581832885742,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,62.41011619567871,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.753725051879883,0
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.103071212768555,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.046722412109375,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.457902908325195,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,129.99773025512695,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.26926040649414,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.025264739990234,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,128.14784049987793,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.09703063964844,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.424543380737305,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.64204216003418,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,11.976003646850586,0
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.15544128417969,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.86949348449707,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,375.1637935638428,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,141.7076587677002,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.82620620727539,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,130.8283805847168,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,133.66270065307617,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,374.16934967041016,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,62.00981140136719,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.57672691345215,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,54.212331771850586,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,21.04806900024414,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,371.9673156738281,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,16.36028289794922,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.745920181274414,1
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.931720733642578,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.465238571166992,0
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.008180618286133,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.24651908874512,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,129.19139862060547,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,379.2998790740967,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,385.79392433166504,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,391.010046005249,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,39.01553153991699,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.90343475341797,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.637451171875,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,132.79414176940918,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.339519500732422,0
+SELECT customer_name FROM customer_transactions WHERE customer_name LIKE '%Smith%';,83,1,0,0,1,2132,20.654916763305664,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,382.814884185791,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,26.082515716552734,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.344350814819336,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.080421447753906,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.706279754638672,0
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.113561630249023,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.34117126464844,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.77389907836914,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.10990333557129,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,131.38580322265625,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,35.27259826660156,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,132.58838653564453,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.403177261352539,0
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.251121520996094,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.818960189819336,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,22.741317749023438,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.468008041381836,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.397113800048828,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,55.0227165222168,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.059762954711914,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,370.14317512512207,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,37.27388381958008,1
+SELECT * FROM customer_transactions WHERE age > 30;,51,1,0,0,0,79353,366.24813079833984,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,142.2290802001953,1
+SELECT * FROM customer_transactions WHERE age > 20 AND status = 'pending' ORDER BY age ASC;,91,1,0,1,0,23825,132.66324996948242,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,58.016061782836914,1
+SELECT * FROM customer_transactions WHERE transaction_amount BETWEEN 100 AND 500;,81,1,0,0,0,7838,56.23602867126465,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,13.261795043945312,0
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.4390869140625,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,34.124135971069336,1
+"SELECT status, COUNT(*) FROM customer_transactions GROUP BY status;",67,0,1,0,0,4,33.751726150512695,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.26789093017578,1
+SELECT * FROM customer_transactions ORDER BY transaction_amount DESC LIMIT 100;,79,0,0,1,0,100,21.561384201049805,1
+SELECT AVG(transaction_amount) FROM customer_transactions WHERE status = 'completed';,85,1,0,0,0,1,12.121200561523438,0

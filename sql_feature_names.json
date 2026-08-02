@@ -1,0 +1,7 @@
+[
+  "query_length",
+  "has_where",
+  "has_group_by",
+  "has_order_by",
+  "has_like"
+]
